@@ -1,7 +1,8 @@
-//your JS code here. If required.
-// function addBook(){
-// 	const title=document.getElementById('title').value;
-// 	const author=document.getElementById('author').value;
-// 	const isbn=document.getElementById('isbn').value;
-// }
-// addBook.pushData()
+const form=document.querySelector("form-group");
+
+function adddData(e) {
+	const title=document.getElementById("title");
+	const author=document.getElementById("author");
+	const isbn=document.getElementById("isbn");
+	}
+form.addEventListener("submit",adddData);
