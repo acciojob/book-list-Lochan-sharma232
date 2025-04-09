@@ -20,5 +20,13 @@ input{
 }
 table{
 	width:100%;
-	
+	margin-top:10px;
 }
+tbody{
+	text-align:center;
+}
+#book-list tr.hrline{
+	border:2px solid;
+}
+
+
