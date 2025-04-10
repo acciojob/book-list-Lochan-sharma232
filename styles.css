@@ -28,5 +28,33 @@ tbody{
 #book-list tr.hrline{
 	border:2px solid;
 }
+.form-group{
+	margin-bottom:10px;
+}
+.form-group label{
+	display:block;
+  font-weight:bold; 
+}
+input{
+	width:100%;
+	padding:5px;
+	margin-top:5px;
+	}
+#submit{
+	color:white;
+	border:none;
+	cursor:pointer;
+}
+#submit:hover{
+	background-color:#218838;
+}
+.delete{
+	background-color:red;
+	color:white;
+	border:none;
+	padding:5px 10px;
+cursor:pointer;
+	border-radius:4px;
+}
 
 
