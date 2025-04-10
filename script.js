@@ -12,7 +12,7 @@ event.preventDefault();
 	    return;
 	}
 //selcts the table body
-	const tableBody=document.querySelector("#book-list tbody");
+	const tableBody=document.querySelector("#booklist tbody");
 	//create a new row
 	const newRow=document.createElement("tr");
 	//create and populate cell
