@@ -11,4 +11,27 @@ event.preventDefault();
 		alert("please fill in all fields");
 	    return;
 	}
-})
+//selcts the table body
+	const tableBody=document.querySelector("#book-list tbody");
+	//create a new row
+	const newRow=document.createElement("tr");
+	//create and populate cell
+	const cell1 = document.createElement("td");
+	cell1.textContent = title;
+	const cell2=document.createElement("td");
+	cell2.textContent = author;
+	const cell3=document.createElement("td");
+	cell3.textContent = isbn;
+	
+	const cell4=document.createElement("td");
+	const delete btn=document.createElement("button");
+	deleteBtn.textContent="Delete";
+	deleteBtn.classname=delete;
+	deleteBtn.addEventListener("click",function()
+		newRow.remove();
+});
+cell4.appendChild(delteBtn);
+//Append cells to row
+							  )
+	
+	)
