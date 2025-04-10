@@ -32,6 +32,12 @@ event.preventDefault();
 });
 cell4.appendChild(delteBtn);
 //Append cells to row
-							  )
+newRow.appendChild(cell1);
+newRow.appendChild(cell2);
+newRow.appendChild(cell3);
+newRow.appendChild(cell4);
+tableBody.insertBefore(newRow,tableBody.firstChild);
+document.getElementById("booklist").reset();
+)
 	
-	)
+});
