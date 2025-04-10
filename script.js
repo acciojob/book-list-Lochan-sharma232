@@ -40,4 +40,4 @@ document.getElementById("booklist").addEventListener("submit",function(event){
     tableBody.insertBefore(newRow,tableBody.firstChild);
     document.getElementById("booklist").reset();
         });
-};
+});
