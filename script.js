@@ -2,7 +2,6 @@ document.getElementById("#book-list").addEventListener("submit",function(event){
     event.preventDefault();
     
         //get input values
-	const tableBody=document.querySelector("#book-list tbody");
         const title=document.querySelector("#title").value;
         const author=document.querySelector("#author").value;
         const isbn=document.querySelector("#isbn").value;
