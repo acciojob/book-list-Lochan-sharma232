@@ -56,5 +56,15 @@ input{
 cursor:pointer;
 	border-radius:4px;
 }
-
-
+.delete:hover{
+	background-color:rgba(250,4,4,0.518);
+}
+.table-striped{
+	border:0px solid;
+}
+#book-list tbody tr td{
+	text-align:left;
+}
+tbody tr td{
+	border:none;
+}
