@@ -1,4 +1,4 @@
-document.getElementById("#book-list").addEventListener("submit",function(event){
+document.getElementById("#booklist").addEventListener("submit",function(event){
     event.preventDefault();
     
         //get input values
@@ -7,12 +7,12 @@ document.getElementById("#book-list").addEventListener("submit",function(event){
         const isbn=document.querySelector("#isbn").value;
     
         //validation
-        if(!title || !author || !isbn){
+        if(!title || !author || isbn){
             alert("please fill in all fields");
             return;
         }
     //selcts the table body
-        const tableBody=document.querySelector("#book-list tbody");
+        const tableBody=document.querySelector("#booklist tbody");
         //create a new row
         const newRow=document.createElement("tr");
         //create and populate cell
