@@ -1,4 +1,4 @@
-document.getElementById("#booklist").addEventListener("submit",function(event){
+document.getElementById("#book-list").addEventListener("submit",function(event){
     event.preventDefault();
     
         //get input values
