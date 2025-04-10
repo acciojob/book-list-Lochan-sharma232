@@ -12,7 +12,7 @@ document.getElementById("booklist").addEventListener("submit",function(event){
             return;
         }
     //selcts the table body
-        const tableBody=document.querySelector("#book-list tbody");
+        const tableBody=document.querySelector("book-list tbody");
         //create a new row
         const newRow=document.createElement("tr");
         //create and populate cell
