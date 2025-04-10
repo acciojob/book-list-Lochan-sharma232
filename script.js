@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded",function(){
 document.getElementById("booklist").addEventListener("submit",function(event){
     event.preventDefault();
     
@@ -39,3 +40,4 @@ document.getElementById("booklist").addEventListener("submit",function(event){
     tableBody.insertBefore(newRow,tableBody.firstChild);
     document.getElementById("booklist").reset();
         });
+};
