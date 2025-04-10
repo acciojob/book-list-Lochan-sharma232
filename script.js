@@ -7,12 +7,12 @@ document.getElementById("booklist").addEventListener("submit",function(event){
         const isbn=document.querySelector("#isbn").value;
     
         //validation
-        if(!title || !author ||isbn){
+        if(!title || !author || !isbn){
             alert("please fill in all fields");
             return;
         }
     //selcts the table body
-        const tableBody=document.querySelector("#booklist tbody");
+        const tableBody=document.querySelector("#book-list tbody");
         //create a new row
         const newRow=document.createElement("tr");
         //create and populate cell
@@ -26,7 +26,7 @@ document.getElementById("booklist").addEventListener("submit",function(event){
         const cell4=document.createElement("td");
         const deleteBtn=document.createElement("button");
         deleteBtn.textContent="Delete";
-        deleteBtn.classname="delete";
+        deleteBtn.className="delete";
         deleteBtn.addEventListener("click",function(){
             newRow.remove();
             });
