@@ -41,7 +41,7 @@ console.log("DOM fully loaded and parsed");
         newRow.appendChild(cell2);
         newRow.appendChild(cell3);
         newRow.appendChild(cell4);
-        tableBody.insertBefore(newRow,tableBody.firstChild);
+        tableBody.appendChild(newRow);
         document.getElementById("booklist").reset();
             });
         });
