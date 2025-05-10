@@ -16,7 +16,7 @@ console.log("DOM fully loaded and parsed");
                 return;
             }
         //selcts the table body
-            const tableBody=document.querySelector("#book-list tBody");
+            const tableBody=document.querySelector("#book-list tbody");
             
             //create a new row
             const newRow=document.createElement("tr");
