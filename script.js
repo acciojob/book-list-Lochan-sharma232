@@ -30,7 +30,7 @@ console.log("DOM fully loaded and parsed");
             
             const cell4=document.createElement("td");
             const deleteBtn=document.createElement("button");
-            deleteBtn.textContent="Delete";
+            deleteBtn.textContent="X";
             deleteBtn.className="delete";
             deleteBtn.addEventListener("click",function(){
                 newRow.remove();
